@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ElevenNote.WebMVC.Models
+namespace ElevenNote.Models
 {
     public class NoteListItem
     {
@@ -13,5 +14,6 @@ namespace ElevenNote.WebMVC.Models
 
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+
     }
 }

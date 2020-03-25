@@ -1,4 +1,5 @@
-﻿using ElevenNote.WebMVC.Models;
+﻿using ElevenNote.Models;
+using ElevenNote.WebMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
